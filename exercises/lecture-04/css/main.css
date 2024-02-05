@@ -1,0 +1,94 @@
+:root {
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: silver;
+}
+#main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+section > p {
+  color: red;
+}
+
+/* - змінити розмір шрифту всіх елементів p всередині елемента section, незалежно від їхнього рівня вкладеності. */
+section p {
+  font-size: 20px;
+}
+
+h2:first-of-type {
+  color: indigo;
+}
+
+p.first a {
+  color: green;
+}
+
+.first a {
+  color: green;
+}
+
+div + p {
+  color: salmon;
+}
+
+.translucent-box {
+  background: hsla(0, 100%, 50%, 0.5);
+}
+
+body {
+  font-size: 140%;
+}
+
+h1 {
+  font-size: 240%;
+}
+
+/* Визначення кольорів за допомогою шістнадцяткового коду:
+
+black: #000000
+blue: #0000FF
+green: #008000
+red: #FF0000
+white: #FFFFFF
+yellow: #FFFF00
+
+Визначення кольорів у десятковій системі числення за допомогою функції RGB:
+black: rgb(0, 0, 0)
+blue: rgb(0, 0, 255)
+green: rgb(0, 128, 0)
+red: rgb(255, 0, 0)
+white: rgb(255, 255, 255)
+yellow: rgb(255, 255, 0)
+
+Визначення кольорів, використовуючи відсотки:
+black: rgb(0%, 0%, 0%)
+blue: rgb(0%, 0%, 100%)
+green: rgb(0%, 50%, 0%)
+red: rgb(100%, 0%, 0%)
+white: rgb(100%, 100%, 100%)
+yellow: rgb(100%, 100%, 0%)
+
+Визначення кольорів використовуючи альфа-канал, що задає прозорість:
+black з альфа-каналом 50%: rgba(0, 0, 0, 0.5)
+blue з альфа-каналом 75%: rgba(0, 0, 255, 0.75)
+green з альфа-каналом 25%: rgba(0, 128, 0, 0.25)
+red з альфа-каналом 80%: rgba(255, 0, 0, 0.8)
+white з альфа-каналом 90%: rgba(255, 255, 255, 0.9)
+yellow з альфа-каналом 60%: rgba(255, 255, 0, 0.6) */
