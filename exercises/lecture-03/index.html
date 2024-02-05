@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Lesson 3 challenges</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* more styles */
+    @import url("css/my-imported-styles.css");
+    @import url("css/common.css");
+
+    /* Селектор p з властивістю color: red; */
+    p {
+      color: red;
+    }
+
+    #exciting-1,
+    #exciting-2 {
+      background: #f69d3c;
+      border: 1px solid #696969;
+      padding: 10px;
+    }
+
+    body {
+      background: var(--bgColor);
+    }
+
+    div {
+      --bgColor: limegreen;
+    }
+
+    p {
+      background: var(--bgColor);
+    }
+  </style>
+</head>
+
+<>
+  <iframe src="https://uk.wikipedia.org/wiki/CSS" title="Сторінка Вікіпедії для мови CSS" width="100%"
+    height="600"></iframe>
+
+  <!-- Додайте тут елеиент p з текстом This is my paragraph. -->
+  <!-- Визначте атрибут style для тега p зі значенням color: blue; -->
+  <p style="color: blue;">This is my paragraph.</p>
+
+  <!-- Який колір буде мати текст This is my paragraph і чому. -->
+  <!-- Текст буде синього кольору, оскільки властивість style присутня в тегу p та має пріоритет над зовнішнім стилем. Таким чином, колір тексту визначається значенням властивості style, тобто blue. -->
+  <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+  <p id="exciting-1">The most exciting paragraph on the page. One of a kind!</p>
+
+  <div id="exciting-2">The most exciting paragraph on the page. One of a kind!</div>
+
+  <!-- Додайте тут 2 елементи div: -->
+  <div>
+    <h3>Div 1</h3>
+    <p>Paragraph 1</p>
+  </div>
+
+  <div>
+    <h3>Div 2</h3>
+    <p>Paragraph 2</p>
+  </div>
+  <footer>
+    <!-- секція About -->
+    <section>
+      <div>
+        <h2>About</h2>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- секція Resources -->
+    <section>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Docs</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">eBooks</a></li>
+          <li><a href="#">Webinars</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- секція Contact -->
+    <section>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer legal -->
+    <section>
+      <ul>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+      &copy; 2024 Copyright Shopaholic Inc.
+    </section>
+  </footer>
+
+  </body>
+
+</html>
