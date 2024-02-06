@@ -32,7 +32,7 @@ section p {
   font-size: 20px;
 }
 
-h2:first-of-type {
+.wrap h2:first-of-type {
   color: indigo;
 }
 
