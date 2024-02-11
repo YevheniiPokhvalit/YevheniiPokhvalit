@@ -1,0 +1,88 @@
+/* TASK 2 */
+.task_2 a {
+  color: indigo;
+}
+
+.task_2 a:visited {
+  color: gold;
+}
+
+.task_2 a:hover {
+  color: salmon;
+}
+
+.task_2 a:active {
+  color: red;
+}
+
+.task_2 a:focus {
+  color: orange;
+}
+
+/* TASK 3 */
+.task_3[type="number"] {
+  background-color: rgba(0, 128, 0, 0.25); /
+}
+
+.task_3[type="number"]:invalid {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.25
+  );
+}
+
+/* TASK 4 */
+.task_4 li:first-child {
+    color: orange;
+}
+
+/* TASK 5 */
+.task_5 li:first-child, .task_5 li span:first-child  {
+    color: orange; 
+}
+
+/* TASK 6 */
+.task_6 li:last-child, .task_6 li span:last-child  {
+    color: orange; 
+  }
+
+
+/* TASK 7 */
+.task_7 li:not(.first-item) {
+    color: orange;
+}
+
+.task_7 li:not(.first-item):not(:last-child) {
+    background-color: yellow;
+    color: black;
+}
+
+/* TSAK 8 */
+.task_8 li:nth-child(2) {
+    color: orange;
+}
+
+.task_8 li:nth-child(even) {
+    color: orange;
+}
+
+.task_8 li:nth-child(2n+6) {
+    color: orange;
+}
+
+/* TASK 9 */
+.ua::before {
+    content: "Слава ";
+}
+
+/* TASK 10 */
+.hero::after {
+  content: " Слава!";
+}
+
+/* TASK 11 */
+.cont::before {
+    content: "\00A7"; /* Код символу параграфу */
+}
