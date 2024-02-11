@@ -1,0 +1,11 @@
+/* Змінні у глобальній області видимості */
+:root {
+  --primary-text-color: #000;
+  --primary-bg-color: #fff;
+}
+
+/* Змінні у області видимості footer */
+footer {
+  --footer-text-color: #fff;
+  --footer-bg-color: #000;
+}
