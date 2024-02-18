@@ -20,11 +20,11 @@
 }
 
 /* TASK 3 */
-.task_3[type="number"] {
+input:in-range {
   background-color: rgba(0, 128, 0, 0.25); /
 }
 
-.task_3[type="number"]:invalid {
+input:out-of-range {
   background-color: rgba(
     0,
     0,
