@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <h1>Hello, javascript!</h1>
+
+    <script>
+        // Task 1
+        // В середині script визначте 2 змінні message1 зі значенням Hello та message2 зі значенням JavaScript.
+        // Використовуючи ці змінні та alert, виконайте відображення рядка "Hello JavaScript!".
+
+        let message1 = 'Hello'
+        let message2 = 'javascript!'
+        alert(message1 + " " + message2);
+
+        // Task 2
+        // Виправити помилку у коді
+        // 'use strict';
+        //
+        // message = hello;
+        // message = 123456;
+        'use strict';
+
+        let message;
+        message = 'hello';
+        message = 123456;
+        console.log(message);
+
+        // Task 3
+        // Напишіть програму, що запитує у користувача значення двох змінних x, y, та виводить їх суму
+        let x = parseFloat(prompt('Введіть значення для x :'));
+        let y = parseFloat(prompt('Введіть значення для y :'));
+        alert(`сума чисел х та у = ${x+y}`)
+
+        // Task 4
+        // Виправити помилку у коді
+        //
+        // 'use strict';
+        //
+        // let a = 9007199254740991;
+        // let b = 9007199254740991n;
+        // console.log(a + b);
+        // Uncaught TypeError: can't convert BigInt to number
+        'use strict';
+
+        let a = 9007199254740991;
+        let b = 9007199254740991n;
+        console.log(BigInt(a) + b);
+
+        // Task 5
+        // Перепишіть код так, щоб результат дорівнював
+        // 'use strict';
+        //
+        // let apples = "2";
+        // let oranges = "3";
+        //
+        // alert( apples + oranges );
+        'use strict';
+
+        let apples = "2";
+        let oranges = "3";
+
+        alert( Number(apples) + Number(oranges) );
+
+        // Task 6
+        // Які кінцеві значення всіх змінних a, b, c і d після виконання наведеного нижче коду?
+        //         'use strict';
+        //
+        //         let ax = 1, bx = 1;
+        //         let c = ++ax; // = 2
+        //         let d = bx++; // = 1
+
+        // Task 7
+        // Які значення a і x після виконання наведеного нижче коду?
+        //
+        //         'use strict';
+        //
+        //         let a = 2;
+        //         let x = 1 + (a *= 2);
+        //     Значення змінної а = 4, змінної х = 5
+
+        // Task 8
+        // Які результати цих виразів?
+        //         'use strict';
+        //
+        //         "" + 1 + 0 // = 10
+        //         "" - 1 + 0 // = -1
+        //         true + false // = 1
+        //         6 / "3" // = 2
+        //         "2" * "3" // = 6
+        //         4 + 5 + "px" // = 9px
+        //         "$" + 4 + 5 // = $45
+        //         "4" - 2 // = 2
+        //         "4px" - 2 // = NaN
+        //         "  -9  " + 5 // = -9 5
+        //         "  -9  " - 5 // -14
+        //         null + 1 // = 1
+        //         undefined + 1 // = NaN
+        //         NaN + 1 // = NaN
+
+        // Task 9
+        // Маємо такий код
+        // 'use strict';
+        // // скоротити цей код за допомогою операторів += і *=:
+        // let n = 2;
+        // n = n + 5;
+        // n = n * 2;
+        let n = 2;
+        n += 5;
+        n *= 2;
+
+        // Task 10
+        // Маємо такий код
+        // let n1 = "   123   ";
+        // let n2 = "123z";
+        // let n3 = true;
+        // let n4 = false;
+        //
+        // console.log(n1, n2, n3, n4);
+        // Перетворити змінні n1, n2, n3, n4 на числа
+        let n1 = "   123   ";
+        let n2 = "123z";
+        let n3 = true;
+        let n4 = false;
+
+        n1 = parseFloat(n1.trim());
+        n2 = parseFloat(n2);
+        n3 = Number(n3);
+        n4 = Number(n4);
+
+        console.log(n1, n2, n3, n4);
+
+    </script>
+
+</body>
+</html>
